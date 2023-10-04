@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../dist/output.css" />
+    <title>compose tweet</title>
+  </head>
+  <body class="bg-kala-0 font-inter text-neutral-50">
+    <section class="flex flex-col items-start gap-3 px-4">
+      <div class="flex py-3 self-stretch justify-between">
+        <div class="flex items-center gap-5">
+          <a class="min-w-fit" href="../../src/user-profile/index.html">
+            <img src="../../public/images/arrow-left.svg" alt="arrow-left" />
+          </a>
+          <p class="font-bold">Edit profile</p>
+        </div>
+        <a href="../../src/home-feed/index.html">
+          <button
+            class="bg-neutral-50 rounded-search py-2 px-5 text-kala-0 font-bold gap-10"
+          >
+            Save
+          </button>
+        </a>
+      </div>
+      <div class="flex self-stretch relative">
+        <img
+          class="w-screen"
+          src="../../public/images/profile-edit.png"
+          alt="cover-img"
+        />
+        <div class="absolute flex gap-2 top-1/2 left-1/2">
+          <div class="bg-kala-0 opacity-60 rounded-full p-1">
+            <img
+              src="../../public/images/profile-edit-symbols-add-a-photo.svg"
+              alt="edit photo"
+            />
+          </div>
+          <div class="bg-kala-0 opacity-60 rounded-full p-1">
+            <img src="../../public/images/profile-edit-1-x.svg" alt="" />
+          </div>
+        </div>
+        <div>
+          <img
+            class="absolute left-2 -bottom-6"
+            src="../../public/images/User avatar.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="flex flex-col items-center gap-5 self-stretch my-8">
+        <fieldset
+          class="px-3 py-4 w-full border border-neutral-500 rounded focus-within:border-twitter_blue-0"
+        >
+          <legend
+            class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0"
+          >
+            Name
+          </legend>
+          <input
+            class="outline-none bg-transparent caret-twitter_blue-0 placeholder:text-neutral-500 text-xl"
+            type="text"
+            placeholder="Name"
+          />
+        </fieldset>
+        <fieldset
+          class="px-3 py-4 w-full border border-neutral-500 rounded focus-within:border-twitter_blue-0"
+        >
+          <legend
+            class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0"
+          >
+            Bio
+          </legend>
+          <input
+            class="outline-none w-full bg-transparent caret-twitter_blue-0 placeholder:text-neutral-500 text-xl"
+            type="text"
+            placeholder="Tell something intresting about yourself"
+          />
+        </fieldset>
+        <fieldset
+          class="px-3 py-4 w-full border border-neutral-500 rounded focus-within:border-twitter_blue-0"
+        >
+          <legend
+            class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0"
+          >
+            location
+          </legend>
+          <input
+            class="outline-none bg-transparent caret-twitter_blue-0 placeholder:text-neutral-500 text-xl"
+            type="text"
+            placeholder="location"
+          />
+        </fieldset>
+        <fieldset
+          class="px-3 py-4 w-full border border-neutral-500 rounded focus-within:border-twitter_blue-0"
+        >
+          <legend
+            class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0"
+          >
+            Website
+          </legend>
+          <input
+            class="outline-none bg-transparent caret-twitter_blue-0 placeholder:text-neutral-500 text-xl"
+            type="text"
+            placeholder="Website"
+          />
+        </fieldset>
+      </div>
+    </section>
+  </body>
+</html>

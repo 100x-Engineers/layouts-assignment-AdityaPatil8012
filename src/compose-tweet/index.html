@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../dist/output.css" />
+    <title>compose tweet</title>
+  </head>
+  <body class="bg-kala-0 font-inter text-neutral-50">
+    <section class="px-4 flex flex-col">
+      <span class="py-3 flex justify-between items-center">
+        <a class="min-h-fit h-6" href="../../src/home-feed/index.html">
+          <img src="../../public/images/cross.svg" alt="cross logo" />
+        </a>
+        <button
+          class="py-2 px-6 rounded-radius font-bold text-neutral-50 bg-twitter_blue-0 hover:text-neutral-200 hover:bg-twitter_blue_hover-0 ease-in-out transition-colors"
+        >
+          Post
+        </button>
+      </span>
+      <span class="py-2 flex gap-3 items-center">
+        <a class="min-h-fit" href="../../src/user-profile/index.html">
+          <img src="../../public/images/user-avatar.png" alt="" />
+        </a>
+        <input
+          maxlength="31"
+          class="bg-transparent outline-none caret-twitter_blue-0 w-full"
+          type="text"
+          placeholder="What's happening?!"
+        />
+      </span>
+    </section>
+  </body>
+</html>
