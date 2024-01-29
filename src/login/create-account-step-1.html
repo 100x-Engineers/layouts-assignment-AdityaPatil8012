@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../dist/output.css" rel="stylesheet"/>
+  <title>login</title>
+</head>
+<body class="bg-kala-0 font-inter text-neutral-50 flex flex-col w-full gap-3 shrink-0 px-4 pb-5">
+  <header class="flex gap-5 self-stretch items-center py-3">
+    <a href="index.html" class="w-6 h-6">
+      <img class="w-full" src="../../public/images/cross.svg" alt="cross logo">
+    </a>
+    <h3 class="text-base text-neutral-50 font-bold">
+      Step 1 of 4
+    </h3>
+  </header>
+  <main class="flex flex-col items-start gap-5 self-stretch">
+    <div>
+      <h1 class="text-2xl font-bold">
+        Create your account
+      </h1>
+    </div>
+    <section class="flex flex-col gap-8 self-stretch">
+      <fieldset class="px-3 py-4 border border-neutral-500 rounded focus-within:border-twitter_blue-0">
+        <legend class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0">
+          Name
+        </legend>
+        <input class="outline-none bg-transparent caret-twitter_blue-0 placeholder:text-neutral-500 text-xl" type="text" placeholder="Name">
+      </fieldset>
+      <fieldset class="px-3 py-4 border border-neutral-500 rounded focus-within:border-twitter_blue-0">
+        <legend class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0">
+          Email
+        </legend>
+        <input class="outline-none bg-transparent caret-twitter_blue-0 placeholder:text-neutral-500 text-xl" type="email" placeholder="Email">
+      </fieldset>
+      <div class="flex flex-col gap-2">
+        <h3 class="text-base text-neutral-50 font-bold">
+          Date of birth
+        </h3>
+        <p class="text-sm text-neutral-500">
+          This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or something else.
+        </p>
+      </div>
+      <div class="grid grid-cols-4 gap-2 items-center self-stretch">
+        <fieldset class="col-span-2 px-3 py-4 border border-neutral-500 rounded focus-within:border-twitter_blue-0">
+          <legend class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0">
+            Month
+          </legend>
+          <select name="month" id="month" class="outline-none bg-kala-0 w-full text-neutral-50 placeholder:text-neutral-500">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+        </fieldset>
+        <fieldset class="px-3 py-4 border border-neutral-500 rounded focus-within:border-twitter_blue-0">
+          <legend class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0">
+            Day
+          </legend>
+          <select name="month" id="month" class="outline-none bg-kala-0 w-full text-neutral-50 placeholder:text-neutral-500">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+        </fieldset>
+        <fieldset class="px-3 py-4 border border-neutral-500 rounded focus-within:border-twitter_blue-0">
+          <legend class="text-xs px-1 text-neutral-500 group-focus-within:text-twitter_blue-0">
+            Year
+          </legend>
+          <select name="month" id="month" class="outline-none bg-kala-0 w-full text-neutral-50 placeholder:text-neutral-500">
+            <option value="1">2023</option>
+            <option value="2">2022</option>
+            <option value="3">2021</option>
+            <option value="4">2020</option>
+            <option value="5">2019</option>
+            <option value="6">2018</option>
+            <option value="7">2017</option>
+            <option value="8">2016</option>
+            <option value="9">2015</option>
+            <option value="10">2014</option>
+            <option value="11">2013</option>
+            <option value="12">2012</option>
+          </select>
+        </fieldset>
+      </div>
+    </section>
+    <section class=" flex pt-20 px-4 flex-col justify-end absolute bottom-5 right-0 left-0 items-center self-stretch  ">
+      <a href="create-account-step-2.html" class="w-full">
+        <button class="bg-neutal_50-0 hover:bg-neutral-200 disabled:bg-neutral-500 transition-colors text-kala-0 font-inter text-base font-bold flex justify-center items-center self-stretch w-full py-2 px-6 rounded-radius shadow-gol backdrop-blur-gul">
+          Create account
+        </button>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
